@@ -1,0 +1,1 @@
+{"name":"Local: b","url":"/Users/guozhen/Desktop/code/cf/b.cpp","tests":[{"id":1770128354751,"input":"8 5\n4 5 2 3 4 2 2 5","output":"24"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/guozhen/Desktop/code/cf/b.cpp","group":"local","local":true}

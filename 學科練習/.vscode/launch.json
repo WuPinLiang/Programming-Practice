@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/guozhen/Desktop/code/學科練習",
+      "program": "/Users/guozhen/Desktop/code/學科練習/build/Debug/outDebug"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"name":"Local: CoinCombinationsI","url":"/Users/guozhen/Desktop/code/CSES/CoinCombinationsI.cpp","tests":[{"id":1762938203426,"input":"3 9\n2 3 5","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/guozhen/Desktop/code/CSES/CoinCombinationsI.cpp","group":"local","local":true}

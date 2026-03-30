@@ -1,0 +1,1 @@
+{"name":"Local: b185","url":"/Users/guozhen/Desktop/code/學科練習/b185.cpp","tests":[{"id":1762747688341,"input":"2 2\nOO\nOO\n1 2\nOX\n6 6\nXXXXXX\nXXXOXX\nXXOOOX\nXOXOXX\nOOOXXX\nXOXXXX","output":"Minimum Steps :4\nCan not\nMinimum Steps :2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/guozhen/Desktop/code/學科練習/b185.cpp","group":"local","local":true}

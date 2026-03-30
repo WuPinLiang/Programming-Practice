@@ -1,0 +1,1 @@
+{"name":"Local: b051","url":"/Users/guozhen/Desktop/code/學科練習/b051.cpp","tests":[{"id":1762782943650,"input":"5 123 124 56 90 9\n5 28 285 287 2851 2859\n2 25 2523\n3 89 898 899","output":"99056124123  \n2872859285285128\n252523\n89989898"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/guozhen/Desktop/code/學科練習/b051.cpp","group":"local","local":true}
