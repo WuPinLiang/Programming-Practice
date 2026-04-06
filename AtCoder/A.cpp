@@ -8,14 +8,11 @@
 using namespace std;
 
 inline void solve() {
-    int a, b, c;
-    cin >> a >> b >> c;
-    bool ans = false;
-    if(a == b or a == c or b == c) {
-        if(a + b > c and a + c > b and b + c > a)
-            ans = 1;
-    }
-    cout << ((ans) ? "Yes\n" : "No\n");
+    int n;cin >> n;
+    cout << n;
+    for(int i = n - 1;i > 0;i--)
+        cout << ',' << i;
+    cout << '\n';
     return ;
 }
 

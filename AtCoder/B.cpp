@@ -8,18 +8,24 @@
 using namespace std;
 
 inline void solve() {
-    int n, m, k;
-    cin >> n >> m >> k;
-    vector<int> v(n, 0);
-    for(int i = 0;i < k;i++) {
-        int a, b;
-        cin >> a >> b;
-        v[a]++;
+    int n;cin >> n;
+    vector<vector<int> > v(n, vector<int> (n, 0));
+    for(int i = 0;i < n;i++) {
+        for(int j = i + 1;j < n;j++) {
+            cin >> v[i][j];
+        }
     }
-    for(int i = 0;i < k;i++) {
-        if(v[i] == )
-    }
-    return ;
+    for(int i = 0;i < n;i++) {
+        for(int j = i + 1;j < n;j++) {
+            for(int k = j + 1;k < n;k++) {
+                if(v[i][j] + v[j][k] < v[i][k]) {
+                    cout << "Yes\n";
+                    return ;
+                } 
+            }
+        }
+    }        
+    cout << "No\n";
 }
 
 signed main() {
