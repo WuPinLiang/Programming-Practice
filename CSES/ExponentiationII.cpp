@@ -25,8 +25,8 @@ inline int exp(int a, int b) {
 inline void solve() {
     int a, b, c;
     cin >> a >> b >> c;
-    int base = exp(a, b) % mod;
-    cout << exp(base, c) % mod << '\n';
+    int top = exp(b, c) % mod;
+    cout << exp(a, top) % mod << '\n';
 }
 
 signed main() {
